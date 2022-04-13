@@ -52,9 +52,9 @@ lambda <- (100/maxrange)^2  # Each muclust ~ N(mutheta, sigma2/lambda)
 
 
 # Choose number of iterations for sampler
-niter <- 10000 
+niter <- 50000 
 nthin <- 5 # Don't choose too high, after burn-in we have (niter/nthin)/2 samples from posterior to potentially use 
-npostsum <- 5000 # Current number of samples it will draw from this posterior to estimate fhat 
+npostsum <- 5000 # Current number of samples it will draw from this posterior to estimate fhat (possibly repeats) 
 
 WalkerTemp <- WalkerBivarDirichlet(x = x, xsig = xsig, 
                                    lambda = lambda, nu1 = nu1, nu2 = nu2, 
