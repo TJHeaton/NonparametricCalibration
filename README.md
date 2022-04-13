@@ -17,4 +17,4 @@ In these files, one should be able to calibrate any set of samples, and also est
 
 I have added a small progress bar to the code to let a user know it is running (and how far along it is) and have also tried to create some nice plotting functions which show the summarised joint density, and also the individual posterior calendar age for any individual determination. You can access the other variables fairly easily too - hopefully they are sensibly named so they are self-explanatory.
 
-Any feedback on the code is welcome. I intend to try and integrate it with the main code for radiocarbon calibration called OxCal (https://c14.arch.ox.ac.uk/oxcal.html) so that it is widely available to the radiocarbon community.
+Any feedback on the code is welcome. I intend to try and integrate it with OxCal (https://c14.arch.ox.ac.uk/oxcal.html) so that it is widely available to the radiocarbon community.
