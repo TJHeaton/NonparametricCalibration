@@ -8,7 +8,7 @@ This folder contain code to perform non-parametric calibration and subsequent su
 
 The code here provides code as used for JRSS C submission. All files need to be placed in a directory as organised here. 
 
-The essential functions for users whic wish to calibrate their own datasets are:
+The essential functions for users who wish to calibrate their own datasets are:
 
 1) NPCalibrationWalker.R
 2) NPCalibrationNeal.R
